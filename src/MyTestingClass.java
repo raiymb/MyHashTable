@@ -8,11 +8,11 @@ public class MyTestingClass {
     public int getValue() {
         return value;
     }
-
+// result mus be prime number
     @Override
     public int hashCode() {
         int result = 17;
-        result = 31 * result + value;
+        result = 23 * result + value;
         return result;
     }
 

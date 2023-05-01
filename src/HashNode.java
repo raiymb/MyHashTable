@@ -10,7 +10,7 @@ public class HashNode<K,V> {
         this.value = value;
         this.next = null;
     }
-
+    // mutators and accessors for key,value and next
     public K getKey() {
         return key;
     }
